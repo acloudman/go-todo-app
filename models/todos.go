@@ -1,9 +1,9 @@
 package models
 
 import (
-	"../configs"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"go-todo-app/configs"
 )
 
 func GetAllTodos(todo *[]Todo) (err error) {

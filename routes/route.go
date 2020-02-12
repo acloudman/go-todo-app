@@ -1,8 +1,8 @@
 package Routes
 
 import (
-	"../controllers"
 	"github.com/gin-gonic/gin"
+	"go-todo-app/controllers"
 )
 
 func SetupRouter() *gin.Engine {

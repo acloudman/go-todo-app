@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"./configs"
-	"./models"
-	"./routes"
 	"github.com/jinzhu/gorm"
+	"go-todo-app/configs"
+	"go-todo-app/models"
+	"go-todo-app/routes"
 )
 
 var err error

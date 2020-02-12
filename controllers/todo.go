@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"../models"
 	"github.com/gin-gonic/gin"
+	"go-todo-app/models"
 	"net/http"
 )
 
